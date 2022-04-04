@@ -1,0 +1,15 @@
+services:
+  _defaults:
+    autowire: false
+    autoconfigure: false
+    public: false
+
+#  GeorgRinger\NewsCategoryPidConstraint\:
+#    resource: '../Classes/*'
+
+  GeorgRinger\NewsCategoryPidConstraint\Event\PidConstraintEvent:
+    tags:
+      - name: event.listener
+        identifier: 'news-categorypid-constraint'
+        method: 'connect'
+        event: GeorgRinger\News\Event\NewsDetailActionEvent

@@ -1,0 +1,35 @@
+{
+    "name": "georgringer/news-category-pid-constraint",
+    "type": "typo3-cms-extension",
+    "description": "Check if record is allowed on current page by comparing current page to category category",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "article",
+        "news"
+    ],
+    "homepage": "https://ringer.it",
+    "authors": [
+        {
+            "name": "Georg Ringer",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^10.4 || ^11",
+        "georgringer/news": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgRinger\\NewsCategoryPidConstraint\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "news_category_pid_constraint"
+        }
+    }
+}
