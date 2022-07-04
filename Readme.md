@@ -1,9 +1,9 @@
 # TYPO3 Extension `news_category_pid_constraint`
 
-This extensions avoid duplicate content usage if the setting *Single-view page for news from this category* of a news
+This extension avoids duplicate content usage if the setting *`Single-view page for news from this category`* of a news
 category is used. 
 
-Furthermore this extension can be used as example who to implement an event listener (TYPO3 11) or  Signal Slots (TYPO3 10).
+Furthermore this extension can be used as example to implement an event listener (TYPO3 11) or  Signal Slots (TYPO3 10).
 
 Requirements:
 
@@ -17,7 +17,7 @@ Install with `composer req georgringer/news-category-pid-constraint`.
 
 ## Configuration
 
-With the following configuration a page not found error is shown instead of letting ext:news and its error handling
+With the following configuration a `page not found` error is shown instead of letting ext:news and its error handling
 decide what to do:
 
 ```typo3_typoscript
