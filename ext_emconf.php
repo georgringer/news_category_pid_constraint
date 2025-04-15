@@ -1,6 +1,6 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['news_category_pid_constraint'] = [
     'title' => 'News pid check',
     'description' => 'Check if record is allowed on current page by comparing current page to category category',
     'category' => 'fe',
